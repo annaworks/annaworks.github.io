@@ -1,11 +1,11 @@
 # annawca.github.io
 
-Purpose
+Project Purpose
 =======
-Responsive Portfolio Website Design for Anna, Web Developer and Programmer from Vancouver, BC, Canada. Coded by Anna, Aug 2016.
+Responsive Portfolio Website Design for Anna, Web Developer and Programmer from Vancouver, BC, Canada. Coded by Anna, August 2016.
 
-### Tools Used
-HTML5/CSS3, Bootstrap
+### Tools and Skills Used
+HTML5/CSS3, Bootstrap, Adobe Photoshop, jQuery, implement packages from other creators
 
 ### Improvements for next version
 * Use Less or Sass to make CSS concise
