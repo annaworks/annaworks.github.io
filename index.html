@@ -22,14 +22,14 @@
     &#9776;
   </button>
   <div class="navbar-brand">
-      <a href="#"><img src="img/annaworks.png" alt="AnnaWCA.logo" height="135" ></a></div>
+      <a href="#" class="smoothScroll"><img src="img/annaworks.png" alt="AnnaWCA.logo" height="162" ></a></div>
   <div class="collapse navbar-toggleable-xs" id="myNavbar">
     <ul class="nav navbar-nav pull-sm-right">
       <li class="nav-item active">
         <a class="nav-link" href="#home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">My Work</a>
+        <a class="nav-link" href="#portfolio-1">My Work</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
@@ -71,7 +71,7 @@
     <div class="card card-block">
     <h3 class="card-title">Entrepreneurs and Small Businesses</h3>
     <p class="card-text">Your identity online is your professional image. Look no further to enhance your business idea. Establish your web presence with me.</p>
-    <a href="portfolio.html" class='btn-link'>See Work</a>
+    <a href="#portfolio-3" class='btn-link'>See Work</a>
     </div>
       
 
@@ -85,9 +85,63 @@
     <div class="card card-block">
     <h3 class="card-title">Utility Apps</h3>
     <p class="card-text">Do you have an idea for a tool that you want to bring to life? I can bring color to you, or your team, to make that happen.</p>
-    <a href="portfolio.html#portfolio-3" class="btn-link">See Work</a>
+    <a href="#portfolio-1" class="btn-link">See Work</a>
     </div>
     </div>
+</section>
+
+<!--PROJECTS DEFINITIONS / CASE STUDIES -->
+<section id="portfolio-1">
+    <div class="container-fluid">
+    <div class="section-caption">
+        <h2>Anna works</h2><i>verb.</i>
+        &nbsp;&nbsp;Here's proof of it
+    </div>
+    <div class="portfolio-item">
+    <a href="http://nerdiest.herokuapp.com" target="_blank"><img src="img/portfolio-1.jpg" width="706" alt="Nerdigest.projectPreview"></a>
+    <h5>Nerdi[g]est: Nerdiest Digest</h5>
+    <p>Social media web application for a group of friends to share and rate posts. Secured user generation, login, commenting, and point voting system.</p>
+    <ul class="skills">
+        <li>Ruby on Rails</li>
+        <li>PostgreSQL</li>
+        <li>Ruby Gems 'devise', 'acts as votable'</li>
+        <li>Git</li>
+    </ul>
+       </div></div>
+       </section>
+       
+<section id="portfolio-2">
+    <div class="container-fluid">
+    <div class="portfolio-item">
+    <a href="https://pinmycode.herokuapp.com" target="_blank">
+    <img src="img/portfolio-2.jpg" width="706" alt="LearningRuby.projectPreview"></a>
+    <h5>Pin My Code: Ruby Resources</h5>
+    <p>Add links and screenshots on bulletin boards to share resources with other ruby learners.</p>
+    <ul class="skills">
+        <li>Ruby on Rails</li>
+        <li>PostgreSQL</li>
+        <li>Adobe Photoshop</li>
+        <li>HTML/CSS</li>
+    </ul>
+        </div></div>
+</section>
+    
+<section id="portfolio-3">
+    <div class="container-fluid">
+    <div class="portfolio-item">
+    <a href="https://beimeimarine.com" target="_blank">
+    <img src="img/portfolio-3.png" width="706" alt="SmallBusinessWebsite.projectPreview"></a>
+    <h5>Small Business Website: Local Ship Chandler</h5>
+    <p>Company website for a ship chandler from Vancouver, BC. Blog element to communicate their latest supplies for sale to their customers.</p>
+    <ul class="skills">
+        <li>Wordpress Themes Modification</li>
+        <li>Adobe Photoshop</li>
+        <li>SEO</li>
+        <li>HTML/CSS</li>
+        <li>JS</li>
+        <li>PHP</li>
+    </ul>
+        </div></div>
 </section>
 
 <!--About-->
@@ -96,7 +150,7 @@
     <div class="row">
         <div class="col-md-8">
             <h3>About Anna</h3>
-            <p>Hi, I'm Anna. I am a web developer and database programmer. I find beauty in creating tools that work seamlessly. That said, all I want is to do meaningful work and help make your life easier. I also believe a tool should look as good as it works. This could be your website, database, shell script, or spreadsheet.</p>
+            <p>Hi, I'm Anna. I am a web developer and database programmer based in Vancouver, BC. I find beauty in creating tools that work seamlessly. That said, all I want is to do meaningful work and help make your life easier. I also believe a tool should look as good as it works. This could be your website, database, shell script, or spreadsheet.</p>
 
             <p>My educational background in business process management and information systems management with a side study interactive arts and design. My 5 years of working in an operations role in the freight and transportation industry make me a well rounded and goal-driven developer and programmer. </p>
 
@@ -153,9 +207,22 @@
 <section id="contact">
     <div class="container-fluid">
         <h3 class="section-title">Contact Anna</h3>
-        <p>Form</p>
+        <div class="col-md-10 offset-md-1">
+        <form action="https://formspree.io/annawang@outlook.com"
+          method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" id="name" type="text" name="name">
+            </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control"  id="email" type="email" name="_replyto"></div>
+        <div class="form-group"><label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3"></textarea></div>
         
-    </div>
+        <input class="btn btn-secondary" type="submit" class="btn-link" value="Send">
+        </form>
+    </div></div>
     </section>
     
 <!--Footer-->
@@ -163,13 +230,14 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
-                &copy; Anna Works 2016
+                &copy; Anna Works 2016<br>
+                Hosted on Github Pages
             </div>
             <div class="col-sm-3"></div>
             <div class="col-sm-3">
                 <ul class="list-unstyled">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#portfolio-1">Projects</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -179,8 +247,8 @@
                     <li><a target="_blank" href="http://codewithtuna.wordpress.com">Blog</a></li>
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/annawca" ><img src="img/linked.png" class="icon" alt="linked.logo" height="24"></a>
-        <a target="_blank" href="https://github.com/annawca"><img src="img/github.png" class="icon" alt="github.logo" height="24"></a>
-        <a target="_blank" href="https://instagram.com/eatlovehealth"><img src="img/ig.png" class="icon" alt="instagram.logo" height="24"></a>
+                        <a target="_blank" href="https://github.com/annawca"><img src="img/github.png" class="icon" alt="github.logo" height="24"></a>
+                        <a target="_blank" href="https://instagram.com/eatlovehealth"><img src="img/ig.png" class="icon" alt="instagram.logo" height="24"></a>
                     </li>
                 </ul>
             </div>
@@ -193,6 +261,32 @@
 <!--jQuery, Bootstrap JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="bootstrap-4.0/dist/js/bootstrap.min.js"></script>
-    
+    <script>$(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      // Add smooth scrolling on all links inside the navbar
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+</script>
 </body>
 </html>

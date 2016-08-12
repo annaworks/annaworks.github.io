@@ -9,8 +9,7 @@ img {
 
 h1, h2, h3, h5 {
     font-weight:bold;
-    margin-top: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
     font-family: "Lustria", serif;
     color: #000;
     text-shadow: #eee 0.2rem 0.2rem;
@@ -90,10 +89,6 @@ footer a:hover {
 
 /*link styles end**/
 
-.card {
-    padding-top: 0rem;
-}
-
 
 #cover {
     background: #fff url('img/colorscheme_bg.jpg') center top no-repeat;
@@ -169,4 +164,12 @@ footer {
     box-shadow: #eee 0.2rem 0.2rem;
 }
 
+.section-caption h2, .section-caption {
+    text-align: left;
+
+}
+
+#contact h3, #about h5, #about h3 {
+    padding-bottom: 2rem;
+}
 
