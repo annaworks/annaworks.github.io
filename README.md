@@ -9,7 +9,5 @@ HTML5/CSS3, Bootstrap, Adobe Photoshop, jQuery, implement packages from other cr
 
 ### Improvements for next version
 * Use Less or Sass to make CSS concise
-* Contact form and website form revisions
 * Use Ruby on Rails for project page update (optional for fun)
-
-
+* Embed blodding using Jekyll when applicable
