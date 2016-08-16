@@ -139,13 +139,13 @@ footer {
 
 }
 
-#portfolio-1, #portfolio-2, #portfolio-3 {
+.portfolio {
     max-width: 100%;   
     text-align: center;
     border-bottom: #eee 0.1rem solid;
 }
 
-#portfolio-1, #portfolio-2, #portfolio-3, #about {
+.portfolio, #about {
     background-size: cover;
     border-bottom: #eee 0.1rem solid;
 }

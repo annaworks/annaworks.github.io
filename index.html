@@ -18,11 +18,12 @@
      
 <!--Navigation-->
 <nav class="navbar navbar-light bg-faded">
-  <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container-fluid">
+  <div class="navbar-header">
+   <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
     &#9776;
   </button>
-  <div class="navbar-brand">
-      <a href="#" class="smoothScroll"><img src="img/annaworks.png" alt="AnnaWCA.logo" height="162" ></a></div>
+    <a href="#" class="navbar-brand"><img src="img/annaworks.png" alt="AnnaWCA.logo" height="162" ></a></div>
   <div class="collapse navbar-toggleable-xs" id="myNavbar">
     <ul class="nav navbar-nav pull-sm-right">
       <li class="nav-item active">
@@ -46,7 +47,7 @@
         <a target="_blank" href="https://instagram.com/eatlovehealth"><img src="img/ig.png" class="icon" alt="instagram.logo" height="24"></a>
       </li>
     </ul>
-  </div>
+  </div></div> 
 </nav>
 
 <!--HOME-->
@@ -55,13 +56,14 @@
         <div id="cover-caption">
         <div class="row">          
         <div class="col-md-8 offset-md-4">
-        <h1>Ruby Developer / Database Programmer</h1>
-        <h4>I make seamless, attractive web applications. My passion is in creating tools that will help you reach your goals. Contact me <a href="#contact">here</a> to work with me.</h4>
+        <h1>Python and Database Programmer / Web Developer</h1>
+        <h4>I make seamless, attractive web applications. My passion is in creating tools that will help you reach your goals.</h4>
         <ul class="list-unstyled">
+            <li><a href="#contact" id="btn-hire">I want to work with Anna</a></li>
             <li><a href="https://goo.gl/forms/wxKIa0tDJOxQNsmf1" id="btn-freelance">I want a website</a></li>
-            <li><a href="assets/AnnaWangResume.pdf" id="btn-hire">I am looking to hire</a></li>
+            <!--<li><a href="assets/AnnaWangResume.pdf" id="btn-hire">I am looking to hire</a></li>-->
         </ul>
-            </div></div></div></div>  
+            </div></div></div></div>
     </section>
 
     
@@ -72,32 +74,48 @@
     <div class="card card-block">
     <h3 class="card-title">Entrepreneurs and Small Businesses</h3>
     <p class="card-text">Your identity online is your professional image. Look no further to enhance your business idea. Establish your web presence with me.</p>
-    <a href="#portfolio-3" class='btn-link'>See Work</a>
+    <a href="#portfolio-bus" class='btn-link'>See Work</a>
     </div>
       
 
     <div class="card card-block">
     <h3 class="card-title">Academic Research</h3>
     <p class="card-text">Working with vast amount of data? I will work with your team to program unique tools or improve existing tools to make that easier.</p> 
-    <a href="#contact" class="btn-link">See Experience</a>
+    <a href="#about" class="btn-link">See Experience</a>
     </div>
          
  
     <div class="card card-block">
     <h3 class="card-title">Utility Apps</h3>
     <p class="card-text">Do you have an idea for a tool that you want to bring to life? I can bring color to you, or your team, to make that happen.</p>
-    <a href="#portfolio-1" class="btn-link">See Work</a>
+    <a href="#portfolio-app" class="btn-link">See Work</a>
     </div>
     </div>
 </section>
 
 <!--PROJECTS DEFINITIONS / CASE STUDIES -->
-<section id="portfolio-1">
+<section class="portfolio">
     <div class="container-fluid">
     <div class="section-caption">
         <h2>Anna works</h2><i>verb.</i>
         &nbsp;&nbsp;Here's proof of it
     </div>
+    <div class="portfolio-item">
+    <a href="https://justdevelopingstuff.com" target="_blank">
+    <img src="img/portfolio-4.jpg" width="706" alt="JustDevelopingStuff.projectPreview"></a>
+    <h5>Pin My Code: Ruby Resources</h5>
+    <p>Add links and screenshots on bulletin boards to share resources with other ruby learners.</p>
+    <ul class="skills">
+        <li>Ruby on Rails</li>
+        <li>PostgreSQL</li>
+        <li>Adobe Photoshop</li>
+        <li>HTML/CSS</li>
+    </ul>
+        </div></div>
+</section>
+    
+<section class="portfolio">
+    <div class="container-fluid">
     <div class="portfolio-item">
     <a href="http://nerdiest.herokuapp.com" target="_blank"><img src="img/portfolio-1.jpg" width="706" alt="Nerdigest.projectPreview"></a>
     <h5>Nerdi[g]est: Nerdiest Digest</h5>
@@ -109,9 +127,9 @@
         <li>Git</li>
     </ul>
        </div></div>
-       </section>
+</section>
        
-<section id="portfolio-2">
+<section class="portfolio">
     <div class="container-fluid">
     <div class="portfolio-item">
     <a href="https://pinmycode.herokuapp.com" target="_blank">
@@ -127,10 +145,10 @@
         </div></div>
 </section>
     
-<section id="portfolio-3">
+<section class="portfolio" id="portfolio-bus">
     <div class="container-fluid">
     <div class="portfolio-item">
-    <a href="https://beimeimarine.com" target="_blank">
+    <a href="http://beimeimarine.com" target="_blank">
     <img src="img/portfolio-3.jpg" width="706" alt="SmallBusinessWebsite.projectPreview"></a>
     <h5>Small Business Website: Local Ship Chandler</h5>
     <p>Company website for a ship chandler from Vancouver, BC. Blog element to communicate their latest supplies for sale to their customers.</p>
