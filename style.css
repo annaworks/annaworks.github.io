@@ -110,6 +110,12 @@ footer a:hover {
 #about {
     padding-top: 2rem;
 }
+
+.blockquote {
+    font-family: "Lustria", serif;
+    color: #66ab8c;
+}
+
 .navbar {
     background-color: #fff;
 }
@@ -120,8 +126,6 @@ footer a:hover {
     font-weight: bold;
     display: inline-block;
 }
-
-
 
 footer {
     background: #66ab8c url('img/colorscheme_bg.jpg') center bottom no-repeat;   
@@ -151,7 +155,7 @@ footer {
 }
 
 .services-list li {
-    border-bottom: #6ec4db 1px solid;  
+    border-bottom: #66ab8c 1px solid;  
 }
 
 .skills li {
