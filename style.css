@@ -1,6 +1,8 @@
 body {
     height: 100%;
     font-family: "Lato", sans-serif;
+    max-width: 80rem;
+    margin:0 auto;
 }
 
 img {
@@ -169,6 +171,7 @@ footer {
     color: #fff;
     list-style-type: none;
     box-shadow: #eee 0.2rem 0.2rem;
+    white-space: nowrap;
 }
 
 .section-caption h2, .section-caption {
