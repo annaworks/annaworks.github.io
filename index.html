@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">    
     
-    <title>AnnaWorks | Web and Database Programmer | </title>
-    <meta name="description" content="AnnaWorks is a web developer and database programmer based in Vancouver, BC. Her portfolio displays her work as a Python Progammer.">
+    <title>AnnaWorks | Web Developer </title>
+    <meta name="description" content="A portfolio website for Anna Wang, based in Vancouver, BC. She showcases her web apps, web designs, and python projects.">
     <meta name="keywords" content="web developer, python, webdev, vancouver, anna wang, portfolio, code, small business website, web design, solopreneur, landing page, app, development">
     <meta name="robots" content="index,follow">
     
@@ -35,7 +35,7 @@
         <a class="nav-link" href="#home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio">My Work</a>
+        <a class="nav-link" href="#portfolio">My Works</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
@@ -61,7 +61,7 @@
         <div id="cover-caption">
         <div class="row">          
         <div class="col-md-8 offset-md-4">
-        <h1>Web Developer / Database Programmer</h1>
+        <h1>Web Developer</h1>
         <h4>I make seamless, attractive web applications. My passion is in creating tools that will help you reach your goals.</h4>
         <ul class="list-unstyled">
             <li><a href="#contact" id="btn-hire">I want to collaborate</a></li>
@@ -78,22 +78,22 @@
     <div class="card-group">
     <div class="card card-block">
     <h3 class="card-title">Entrepreneurs and Small Businesses</h3>
-    <p class="card-text">Your identity online is your professional image. Look no further to enhance your business idea. Establish your web presence with me.</p>
+    <p class="card-text">Are you looking to build an identity online? Look no further to enhance your business. Establish your web presence with me.</p>
     <a href="#portfolio-bus" class='btn-link'>See Work</a>
     </div>
       
 
     <div class="card card-block">
-    <h3 class="card-title">Academic Research</h3>
-    <p class="card-text">Working with vast amount of data? I will work with your team to program unique tools or improve existing tools to make that easier.</p> 
-    <a href="#about" class="btn-link">See Experience</a>
+    <h3 class="card-title">Data Science</h3>
+    <p class="card-text">Working with vast amount of data? I will mine data and wrangle it for your analysis. I will also work with your team to program unique tools or improve existing tools to make that easier.</p> 
+    <a href="#tweet-analysis-app" class="btn-link">See Experience</a>
     </div>
          
  
     <div class="card card-block">
     <h3 class="card-title">Utility Apps</h3>
     <p class="card-text">Do you have an idea for a tool that you want to bring to life? I can bring color to you, or your team, to make that happen.</p>
-    <a href="#portfolio-app" class="btn-link">See Work</a>
+    <a href="#web-app" class="btn-link">See Work</a>
     </div>
     </div>
 </section>
@@ -102,25 +102,26 @@
 <section class="portfolio" id="portfolio">
     <div class="container-fluid">
     <div class="section-caption">
-        <h2>Anna works</h2><i>verb.</i>
-        &nbsp;&nbsp;Here's proof of it
+        <h2>Projects</h2>
     </div>
-    <div class="portfolio-item col==">
-    <a href="https://justdevelopingstuff.github.io" target="_blank">
+    <div class="portfolio-item" id="tweet-analysis-app">
+    <a href="https://justdevelopingstuff.github.io/projects/euro-2016-tweet-analysis.html" target="_blank">
     <img src="img/portfolio-4.jpg" width="706" alt="JustDevelopingStuff.projectPreview"></a>
-    <h5>[Ongoing] Twitter Sentiment Analysis: UEFA EURO 2016</h5>
-    <p>Python Programmer role. We aim to find out how well Twitter reflects the actual timeline of the soccer games by analyzing the tweets posted during the course of the games. Games we are analyzing: Germany vs Italy, France vs Germany, and Portugal vs France.</p>
+    <h5>Soccer Tweets Sentiment Analysis: UEFA EURO 2016</h5>
+    <p>Python Programmer role. We built a twitter bot to predict the real life events of the Euro Cup games by analyzing tweet sentiments and top-10 tweet words.     <a href="https://github.com/justdevelopingstuff/twitter-unsupervised-topwords-sentiment-analysis" class='btn-link'>View Code on GitHub</a></p>
+
     <ul class="skills">
-        <li>Twitter API</li>
         <li>Python</li>
-        <li>Web Scraping</li>
+        <li>Python</li>
+        <li>Twitter API</li>
+        <li>Data mining &amp; Data wrangling</li>
         <li>JSON Parsing</li>
-        <li>Amazon Web Services</li>
+        <li>Amazon Web Services EC2</li>
     </ul>
         </div></div>
 </section>
     
-<section class="portfolio" id="portfolio-app">
+<section class="portfolio" id="web-app">
     <div class="container-fluid">
     <div class="portfolio-item">
     <a href="http://nerdiest.herokuapp.com" target="_blank"><img src="img/portfolio-1.jpg" width="706" alt="Nerdigest.projectPreview"></a>
@@ -129,8 +130,9 @@
     <ul class="skills">
         <li>Ruby on Rails</li>
         <li>PostgreSQL</li>
-        <li>Ruby Gems 'devise', 'acts as votable'</li>
-        <li>Git</li>
+        <li>Ruby Gems 'devise', 'acts as votable', 'simple forms'</li>
+        <li>GitHub</li>
+	<li>Heroku</li>
     </ul>
        </div></div>
 </section>
@@ -141,7 +143,7 @@
     <a href="https://pinmycode.herokuapp.com" target="_blank">
     <img src="img/portfolio-2.jpg" width="706" alt="LearningRuby.projectPreview"></a>
     <h5>Pin My Code: Ruby Resources</h5>
-    <p>Pin links and screenshots on categorized boards to share resources with other ruby learners.</p>
+    <p>Pin links and screenshots onto categorized boards to share resources with other ruby learners.</p>
     <ul class="skills">
         <li>Ruby on Rails</li>
         <li>PostgreSQL</li>
@@ -157,14 +159,12 @@
     <a href="http://beimeimarine.com" target="_blank">
     <img src="img/portfolio-3.jpg" width="706" alt="SmallBusinessWebsite.projectPreview"></a>
     <h5>Small Business Website: Local Ship Chandler</h5>
-    <p>Company website for a ship chandler from Vancouver, BC, with a blogging page to communicate their latest in-stock supplies to their customers.</p>
+    <p>Wordpress website customized for a ship chandler from Vancouver, BC, with a blogging page to communicate their latest in-stock supplies to their customers.</p>
     <ul class="skills">
         <li>Wordpress Themes Modification</li>
         <li>Adobe Photoshop</li>
-        <li>SEO</li>
-        <li>HTML/CSS</li>
-        <li>JS</li>
-        <li>PHP</li>
+        <li>Search Engine Optimization</li>
+        <li>PHP &amp; javascript</li>
     </ul>
         </div></div>
 </section>
@@ -175,9 +175,9 @@
     <div class="row">
         <div class="col-md-8">
             <h3>About Anna</h3>
-            <p>Hi! I am a web developer and database programmer based in Vancouver, BC. I find beauty in creating tools that work seamlessly. That said, all I want is to do meaningful work and help make your life easier. I also believe a tool should look as good as it works. This could be your website, database, shell script, or spreadsheet.</p>
+            <p>Hi! I am a web developer based in Vancouver, BC. I find beauty in creating tools that work seamlessly. That said, all I want is to do meaningful work and help make your life easier. I also believe a tool should look as good as it works.</p>
 
-            <p>My educational background in business process management and information systems management with a side study interactive arts and design. My 5 years of working in an operations role in the freight and transportation industry make me a well rounded and goal-driven developer and programmer. </p>
+            <p>Although my background is in business (Management of Information Systems), I have always had a passion for programming and design. My past 6 years of work in the freight and transportation industry has helped me mature into the well rounded web developer I am today. </p>
 
             <p class="blockquote">I believe in hard work, neat visuals, meaningful work, and personal growth.</p>
             
@@ -189,39 +189,35 @@
         <!--SERVICES-->
             <h5>Services</h5>
             <ul class="services-list list-unstyled">
-                <li>Customized Web Applications</li>        
-                <li>Responsive Website Design</li>
+                <li>Original Web Applications</li>        
+                <li>Responsive Web Design</li>
                 <li>Wordpress Theme Customization</li>
-                <li>Web Scraping and Parsing Data</li>
+                <li>Data mining &amp; Data wrangling</li>
                 <li>Data Visualization</li>
                 <li>Database Development</li>
-                <li>Database normalization and debugging</li>
-                <li>Print Collateral</li>
                 <li>Vectorizing</li>
                 <li>Digital Illustration</li>
+                <li>Print Collateral</li>
             </ul>
         
         <!--BONUS FACTS -->
                 <h5>Bonus Talents</h5>
             <ul class="skills">
-                <li>Illustration</li>
-                <li>Video Editing</li>
+                <li>Video Production - Works displayed at <a href="http://justdevelopingstuff.github.io">JDS</a></li>
                 <li>Photography</li>
             </ul>
             </div>
         </div>
         
         <div>
-            <h5>Tools of Trade</h5>
+            <h5>Tools</h5>
             <ul class="skills">
-                <li>Git / GitHub</li>
-                <li>Brackets</li>
-                <li>PostgreSQL</li>
+                <li>Vim, Sublime Text, Brackets</li>
                 <li>Gimp</li>
                 <li>Adobe Creative Suite 2015</li>
                 <li>Wacom Intuos</li>
                 <li>PaintTool SAI</li>
-                <li>Ubuntu Trusty / Linux Mint / Windows 10</li>
+                <li>Ubuntu Xenial Xerus / Windows 7 &amp; 10</li>
                 <li>ASUS UX305CA</li>
                 </ul>
         </div>

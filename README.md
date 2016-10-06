@@ -1,13 +1,11 @@
-# annaworks.github.io
-
-Project Purpose
+#Project Overview
 =======
-Responsive Portfolio Website Design for Anna, Web Developer and Programmer from Vancouver, BC, Canada. Coded by Anna, August 2016.
+Portfolio Website Design for Web Developer from Vancouver, BC, Canada. Coded by Anna Wang, August 2016.
 
-### Tools and Skills Used
-HTML5/CSS3, Bootstrap, Adobe Photoshop, jQuery, Javascript, implement packages from other creators
+###Methods
+HTML5/CSS3, Bootstrap 4, Photoshop, customized jQuery scripts for smooth scrolling
 
-### Improvements for next version
+###Improvements for next version
 * Smooth scrolling not working on Mozilla Firefox
 * Use Less or Sass to make CSS concise
-* Use Django forr project page content management system (optional for fun) OR use Jekyll
+* Use Django for project page content management system OR use try Github's Jekyll
