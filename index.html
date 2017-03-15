@@ -9,18 +9,44 @@
   <!-- CSS stylesheet & Font imports -->
   <link href="https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro:300,400,600,900" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- end css stylesheet & Font imports -->
 
 </head>
 <body>
 
 <!-- Header with Silhouette and Title -->
+<div id="header" class="hide-on-small-only">
+  <div id="silhouette"></div>
+  <div id="workTitle">
+    <h3>annaworks</h3>
+    <h6>WEB DEVELOPER</h6>
+    <p></p>
+  </div>
+</div>
 <!-- end Header with Silhouette and Title -->
 
 <!-- Fixed-header after scroll past header -->
   <!-- minimized logo, email address, github, cv link -->
   <!-- Follow me on social media (or put into footer?)-->
+  <div class="navbar-fixed">
+    <nav>
+       <div class="nav-wrapper nav">
+         <a href="#" class="brand-logo hide-on-med-and-up">annaworks</a>
+         <ul id="nav-mobile" class="right hide-on-small-only">
+           <li><a href="mailto:annawang@protonmail.ch">annawang@protonmail.ch</a></li>
+           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf">Resume</a></li>
+           <li><a href="https://github.com/annaworks">Github</a></li>
+         </ul>
+         <ul id="nav-mobile" class="right hide-on-med-and-up">
+           <li><a href="mailto:annawang@protonmail.ch"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+           <li><a href="https://github.com/annaworks"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+         </ul>
+       </div>
+     </nav>
+   </div>
 <!-- end Fixed-header after scroll past header -->
 
 <!-- Cards for each portfolio item -->

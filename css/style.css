@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin:0 auto;
+    background: #272128;
+    /*background-image: -webkit-linear-gradient(bottom left, #272128, #008a7d);*/
+    /*-moz-linear-gradient: ();
+    -ms-linear-gradient: ();*/
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav {
+  background: #008a7d;
+}
+
+.nav-mobile {
+  border:1px solid blue;
+}
+
+#header {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+#workTitle > h3, .brand-logo {font-family: "Poiret One", cursive;}
+
+#workTitle > h6 {font-weight:600; color: #b0bec5;}
+
+#silhouette {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+
+/* OPACITY CHANGES FOR JQUERY */
+.opac-60 {
+  opacity: 60%;
+}
