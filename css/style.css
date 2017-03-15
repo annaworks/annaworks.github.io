@@ -1,16 +1,29 @@
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 body {
     height: 100%;
     font-family: "Source Sans Pro", sans-serif;
     margin:0 auto;
     background: #272128;
-    /*background-image: -webkit-linear-gradient(bottom left, #272128, #008a7d);*/
-    /*-moz-linear-gradient: ();
-    -ms-linear-gradient: ();*/
+}
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: #b0bec5;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 1.75em;
+  text-transform: uppercase;
 }
 
 img {
     max-width: 100%;
 }
+
+.section > h5 {text-align: center;}
 
 .nav {
   background: #008a7d;
@@ -20,16 +33,29 @@ img {
   border:1px solid blue;
 }
 
+.card-wrap {
+  height: 300px;
+  overflow: hidden;
+}
+
+.card-image {
+  height: 190px;
+  overflow: hidden;
+}
+
+#works {
+  margin-top: 1rem;
+}
+
 #header {
   text-align: center;
   padding-top: 30px;
   color: #fff;
 }
 
-#workTitle > h3, .brand-logo {font-family: "Poiret One", cursive;}
-
-#workTitle > h6 {font-weight:600; color: #b0bec5;}
-
+#logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px;}
+#workTitle > h3, #logo-navbar {font-family: "Poiret One", cursive;}
+#workTitle > h6 {color: #b0bec5;letter-spacing: 3px;}
 #silhouette {
   width: 85px;
   height: 85px;
@@ -37,6 +63,16 @@ img {
   background: #ffffff;
   margin: 0 auto;
 }
+
+/* SIZE ADJUSTMENTS ACCORDING TO SCREEN SIZE */
+@media only screen and (max-width: 600px) {
+  h2 {font-size: 2em;letter-spacing: 10px;}
+}
+
+@media only screen and (max-width: 992px) {
+  h2 {font-size: 1.35em; letter-spacing: 3px;}
+}
+
 
 
 /* OPACITY CHANGES FOR JQUERY */

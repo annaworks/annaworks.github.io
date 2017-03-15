@@ -29,32 +29,67 @@
 
 <!-- Fixed-header after scroll past header -->
   <!-- minimized logo, email address, github, cv link -->
-  <!-- Follow me on social media (or put into footer?)-->
-  <div class="navbar-fixed">
+  <div id="nav-fix"> <!--add class="navbar-fixed"-->
     <nav>
        <div class="nav-wrapper nav">
-         <a href="#" class="brand-logo hide-on-med-and-up">annaworks</a>
+         <a href="#" id="logo-navbar" class="hide-on-med-and-up">annaworks</a>
          <ul id="nav-mobile" class="right hide-on-small-only">
-           <li><a href="mailto:annawang@protonmail.ch">annawang@protonmail.ch</a></li>
-           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf">Resume</a></li>
            <li><a href="https://github.com/annaworks">Github</a></li>
+           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf">Resume</a></li>
+           <li><a href="mailto:annawang@protonmail.ch">annawang@protonmail.ch</a></li>
          </ul>
          <ul id="nav-mobile" class="right hide-on-med-and-up">
-           <li><a href="mailto:annawang@protonmail.ch"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-           <li><a href="https://github.com/annaworks"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+           <li><a href="https://github.com/annaworks"><i class="small fa fa-github" aria-hidden="true"></i></a></li>
+           <li><a href="files/Annaworks_WebDeveloper_Resume.pdf"><i class="small fa fa-info-circle" aria-hidden="true"></i></a></li>
+           <li><a href="mailto:annawang@protonmail.ch"><i class="small fa fa-envelope" aria-hidden="true"></i></a></li>
          </ul>
        </div>
      </nav>
    </div>
 <!-- end Fixed-header after scroll past header -->
 
+<div class="container">
 <!-- Cards for each portfolio item -->
-  <!-- Acupuncture Clinic Website -->
+<div id="works">
   <!-- UI for Overdose Response App (limited info to show) -->
   <!-- Annaworks Portfolio -->
-  <!-- JDS Landing Page -->
-  <!-- Nerdigest Ruby App -->
+
+  <div class="row"> <!-- ROW 1 -->
+    <!-- TODO (During WIP) Acupuncture Clinic Website -->
+    <div class="card-wrap col s12 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="img/sahc-1.png" alt="\">
+        </div>
+        <div class="card-content grey-text text-darken-2">
+          <span class="card-title">Acupuncture Clinic</span>
+          <p>Branding, logo, website</p>
+        </div>
+      </div></div> <!-- end Acupuncture Clinic Website -->
+    <!-- JDS Landing Page -->
+    <div class="card-wrap col s12 m4">
+      <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img src="img/jds-1.png" alt="\">
+      </div>
+      <div class="card-content grey-text text-darken-2">
+        <span class="card-title">Just Developing Stuff</span>
+        <p>Landing page design</p>
+      </div>
+    </div></div>
+    <!-- Nerdigest Ruby App -->
+    <div class="card-wrap col s12 m4">
+      <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img src="img/ruby-1.png" alt="\">
+      </div>
+      <div class="card-content grey-text text-darken-2">
+        <span class="card-title">Nerdiest News App</span>
+        <p>Ruby on Rails web app</p>
+      </div>
+    </div></div> <!-- end Nerdigest Ruby App -->
+  </div> <!-- end ROW 1 -->
+
 
   <!-- Soccer Tweets Analysis -->
 
@@ -64,11 +99,40 @@
   <!-- Wordpress Website for LovenCreativity -->
   <!-- Wordpress Website for Beimei -->
 
-<!-- TO DOs -->
-  <!-- (During WIP) Wedding Website & App sample -->
-  <!-- (Low priority) Foot Ankle Clinic VBA work -->
+
+  <!-- TODO (During WIP) Wedding Website & App sample -->
+  <!-- TODO (Low priority) Foot Ankle Clinic VBA work -->
+</div>
+</div>
 <!-- end Cards for each portfolio item -->
 
+<!-- Contact Form -->
+<div id="contact" class="section">
+  <h2>Get in Touch</h2>
+  <div class="row">
+    <form class="col s10 offset-s1">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="name" type="text" class="validate">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Message</label>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- TODO:Follow me on social media ICONS-->
+
+<!-- end Contact Form -->
 
 
 <!-- jQuery imports -->
