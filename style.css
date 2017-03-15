@@ -12,9 +12,9 @@ img {
 h1, h2, h3, h5 {
     font-weight:bold;
     padding-top: 2rem;
-    font-family: "Lustria", serif;
+    font-family: "Raleway", cursive;
     color: #000;
-    text-shadow: #eee 0.2rem 0.2rem;
+    /*text-shadow: #eee 0.2rem 0.2rem;*/
 }
 
 p, h4, ul, li {
@@ -31,6 +31,10 @@ p a, h4 a {
 p a:hover, p a:active, h4 a:hover, h4 a:active {
     color: #80e4ff;
     text-decoration: none;
+}
+
+#logo {
+	font-family: "Poiret One", cursive;	
 }
 
 .btn-link {
@@ -114,7 +118,7 @@ footer a:hover {
 }
 
 .blockquote {
-    font-family: "Lustria", serif;
+    font-family: "Raleway", sans-serif;
     color: #66ab8c;
     font-size: 1.6rem;
     padding-bottom: 2rem;
