@@ -38,6 +38,7 @@ $(function() {
     });
   });
 
+  $('.carousel').carousel();
 
 
   // if($('.modal').is(":visible")==true) {

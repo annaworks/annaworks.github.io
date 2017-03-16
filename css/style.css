@@ -89,6 +89,21 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   display:none;
 }
 
+.modal-content p {
+  font-weight: 300;
+  font-size: 1.2em;
+  padding-bottom: 1rem;
+}
+
+.modal-content h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.modal-content h4 {
+  padding-bottom: 1rem;
+}
+
 .modal-overlay {
   z-index:4;
   display: none;
