@@ -42,6 +42,25 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   border:1px solid blue;
 }
 
+/* icon prefix focus color */
+.input-field > input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border-bottom: 1px solid #008a7d;
+  box-shadow: 0 1px 0 0 #000;
+  color: #fff;
+}
+
+.input-field > input[type=text].invalid, input[type=email].invalid {
+     color:#fff;
+   }
+
+.input-field > input[type=text].valid, input[type=email].valid, textarea  {
+    color:#fff;
+  }
+
+.input-field .prefix.active {
+     color: #fff;
+ }
+
 .card-action { font-size: 0.8em;}
 
 .card-wrap {
@@ -83,6 +102,23 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   overflow: auto;
 }
 
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1.0px solid #fff;
+  padding-top: 10px;
+  color: #fff;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.7s ease-out; /* Safari */
+  transition: opacity 0.7s ease-out;
+}
+
+.btn-circle:hover {
+  opacity: 1;
+}
+
+
 #works {
   margin-top: 1rem;
 }
@@ -91,11 +127,15 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   text-align: center;
   height: 323px;
   padding-top: 60px;
+  padding-bottom: 1.5rem;
+}
+
+#header, #footer {
   font-weight: 300;
   color: #616161;
-  padding-bottom: 1.5rem;
-  transform-style: preserve-3d;
 }
+
+#footer p {padding-top: 1rem;}
 
 #logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px;}
 #workTitle > h3, #logo-navbar {font-family: "Poiret One", cursive; color: #fff; letter-spacing: 2px;}
@@ -107,6 +147,12 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   background: #ffffff;
   margin: 0 auto;
 }
+
+#footer {
+  text-align:center;
+}
+
+#footer span {margin-left: 10px; margin-right:10px;}
 
 
 /* JQUERY INTERACTIONS */
