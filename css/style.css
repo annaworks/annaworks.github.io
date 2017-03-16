@@ -23,9 +23,9 @@ img {
     max-width: 100%;
 }
 
-h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
+h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
 
-.divider {opacity: 0.35;}
+.divider {opacity: 0.35; margin-bottom: 1.5rem;}
 
 .fixed {
   position: fixed;
@@ -56,6 +56,33 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
 
 .card-content > p {font-size: 0.9em; font-weight: 300;}
 
+.modal {z-index:5; margin-top: 15%;}
+
+.modal-image {
+  z-index:6;
+  position:absolute;
+  top: 16%;
+  left: 12%;
+  width: 245px;
+  height: 170px;
+  display:none;
+}
+
+.modal-overlay {
+  z-index:4;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+  opacity: 0.90;
+  overflow: auto;
+}
+
 #works {
   margin-top: 1rem;
 }
@@ -71,7 +98,7 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
 }
 
 #logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px;}
-#workTitle > h3, #logo-navbar {font-family: "Poiret One", cursive; color: #fff;}
+#workTitle > h3, #logo-navbar {font-family: "Poiret One", cursive; color: #fff; letter-spacing: 2px;}
 #workTitle > h6 {color: #008a7d;letter-spacing: 3px;}
 #silhouette {
   width: 85px;
@@ -81,47 +108,44 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
   margin: 0 auto;
 }
 
+
 /* JQUERY INTERACTIONS */
-.header-hide > div {
-  transition: all 0.5s linear;
-  transform-origin: 50% 0%;
-}
 
-.header-hide {
-  transition: all 1s linear;
-  transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
-	opacity: 0;
-}
-
-.header-show {
-  transform: rotate3d(1,0,0,0deg);
-	opacity: 1;
-}
-
-/* WORK CARDS OVERLAY */
-.card-layover {
+/* WORK CARDS OVERLAY
+#card-layover {
   display: none;
-  height: 100%;
-  width: 100%;
   position: fixed;
+  z-index: 3;
   top: 0px;
   left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
   overflow: auto;
-  background-color: #8ae0d0;
-  z-index: 3;
 }
 
-.card-overlay {
-
-}
+.card-layover-content {
+  position:relative:
+  top: 10%;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px #212121;
+  margin:auto;
+  margin-top: 15%;
+  padding: 20px;
+  width: 80%;
+  color: #212121;
+  z-index: 4;
+}*/
 
 /* SIZE ADJUSTMENTS ACCORDING TO SCREEN SIZE */
 @media only screen and (max-width: 600px) {
-  h2 {font-size: 2em;letter-spacing: 10px;}
+  h2 {font-size: 2em;letter-spacing: 10px;};
 }
 
 @media only screen and (max-width: 992px) {
-  h2 {font-size: 1.35em; letter-spacing: 3px;}
+  h2 {font-size: 1.35em; letter-spacing: 3px;};
+  .modal {margin-top: 30%;};
 }
 
 

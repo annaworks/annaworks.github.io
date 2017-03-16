@@ -16,13 +16,94 @@
 </head>
 <body>
 
+  <!-- Modal overley-->
+  <div class="modal-overlay"></div>
+  <!-- Modals by id -->
+  <div id="modal-sahc" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>SAHC</h4>
+      <p>About
+        The branding, logo, and work-in-progress elements for the website for the clinic. “Style” is run by a mother-daughter duo that specializes in women’s health, acute health, and weight-loss. They approached me for ways to connect with prospective clients and to share their expertise on a blog.
+
+        Discovery
+        I met with “Style” to consult a marketing plan and discussed how they can share their expertise over social media and on their upcoming blog. From the design process, I learned that reviewing powerpoint slides together was most effective in realizing “Style” ‘s goals and preferences. The slides were of visual element designs that I chose for them and also examples used by their competitors in the clinical industry.
+
+        From here on
+        “Style” prefers a graphic logo and I will be using Inkscape to create their original logo design. Ruby on Rails will be used to build their bilingual English/Chinese website and blog.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <div id="modal-jds" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Just Developing Stuff Landing Page</h4>
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <div id="modal-od" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Fraser Health Hackathon 2017</h4>
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <div id="modal-portfolio" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Annaworks</h4>
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <div id="modal-lovencreativity" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Etsy-Shop Soloprenuer Website</h4>
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <div id="modal-nerdiest" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Nerd Digest Web App</h4>
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-teal btn-flat ">Close</a>
+    </div>
+    </div>
+  <!-- Modal images by id -->
+
+
+  <!-- <div id="card-layover">
+    <div id="sahc" class="card-overlay teal lighten-2">
+      <nav><div class="nav-wrapper lime darken-3"><i class="small fa fa-times" aria-hidden="true"></i>Close</div></nav>
+        <div class="card-layover-content">
+          <h3>Style Acupuncture & Herbal Clinic Website</h3>
+          <p><span class="subheading">About</span>The branding, logo, and work-in-progress elements for the website for the clinic. “Style” is run by a mother-daughter duo that specializes in women’s health, acute health, and weight-loss. They approached me for ways to connect with prospective clients and to share their expertise on a blog.</p>
+
+        </div>
+      </div>
+  </div> -->
+  <!-- end Card layovers -->
+
+
 <!-- Header with Silhouette and Title -->
 <div id="header">
   <div id="silhouette"></div>
   <div id="workTitle">
     <h3>annaworks</h3>
     <h6>WEB DEVELOPER</h6>
-    <p>Anna Wang is based in Vancouver, Canada, and is also a creative content creator.</p>
+    <p>Anna Wang is based in Vancouver, Canada, and is also a painter and a cat-mom.</p>
   </div>
 </div>
 <!-- end Header with Silhouette and Title -->
@@ -54,18 +135,43 @@
   <div class="row"> <!-- ROW -->
     <!-- TODO (During WIP) Acupuncture Clinic Website -->
     <div class="card-wrap col s12 m6">
-      <div class="card">
+      <div id="sahc" class="card" data-target="modal-sahc">
         <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/sahc-1.png" alt="\">
+          <img src="img/sahc-1.png" alt="">
         </div>
         <div class="card-content grey-text text-darken-2">
           <h5>Acupuncture Clinic</h5>
           <p>Branding, logo, website</p>
         </div>
       </div></div> <!-- end Acupuncture Clinic Website -->
+    <!-- UI for Overdose Response App (limited info to show) -->
+    <div class="card-wrap col s12 m6">
+      <div id="od" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="img/hack-1.png" alt="\">
+        </div>
+        <div class="card-content grey-text text-darken-2">
+          <h5>Fraser Health Hackathon 2017</h5>
+          <p>UI Designer on Team First Responders <br><a href="http://news.fraserhealth.ca/News/January-2017/Fraser-Health-Hackathon-delivers-solutions-to-addr.aspx">Read on news.fraserhealth.ca >></a></p>
+        </div>
+    </div></div> <!-- end Acupuncture Clinic Website -->
+  </div> <!-- end ROW -->
+
+  <div class="row"> <!-- ROW -->
+    <!-- Annaworks Portfolio -->
+    <div class="card-wrap col s12 m6">
+      <div id="portfolio" class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="img/sample.png" alt="\">
+        </div>
+        <div class="card-content grey-text text-darken-2">
+          <h5>Annaworks</h5>
+          <p>Portfolio website, UI Interactions, Materialize CSS</p>
+        </div>
+      </div></div> <!-- end Annaworks Portfolio -->
     <!-- JDS Landing Page -->
     <div class="card-wrap col s12 m6">
-      <div class="card">
+      <div id="jds" class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img src="img/jds-1.png" alt="\">
       </div>
@@ -77,45 +183,20 @@
   </div> <!-- end ROW -->
 
   <div class="row"> <!-- ROW -->
-    <!-- UI for Overdose Response App (limited info to show) -->
-    <div class="card-wrap col s12 m6">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/hack-1.png" alt="\">
-        </div>
-        <div class="card-content grey-text text-darken-2">
-          <h5>Fraser Health Hackathon 2017</h5>
-          <p>UI Designer on Team First Responders <br><a href="http://news.fraserhealth.ca/News/January-2017/Fraser-Health-Hackathon-delivers-solutions-to-addr.aspx">Read on news.fraserhealth.ca >></a></p>
-        </div>
-    </div></div> <!-- end Acupuncture Clinic Website -->
-    <!-- Annaworks Portfolio -->
-    <div class="card-wrap col s12 m6">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/sample.png" alt="\">
-        </div>
-        <div class="card-content grey-text text-darken-2">
-          <h5>Anna Wang Portfolio</h5>
-          <p>Portfolio website, UI Interactions</p>
-        </div>
-      </div></div> <!-- end Annaworks Portfolio -->
-  </div> <!-- end ROW -->
-
-  <div class="row"> <!-- ROW -->
     <!-- Wordpress Website for LovenCreativity -->
     <div class="card-wrap col s12 m6">
-      <div class="card">
+      <div id="lovencreativity" class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img src="img/wordpress-1.png" alt="\">
       </div>
       <div class="card-content grey-text text-darken-2">
         <h5>Etsy-Shop Solopreneur Website</h5>
-        <p>Wordpress Theme Customization</p>
+        <p>Wordpress Theme Customization, Photography</p>
       </div>
     </div></div> <!-- end Wordpress Website for LovenCreativity -->
     <!-- Nerdigest Ruby App -->
     <div class="card-wrap col s12 m6">
-      <div class="card">
+      <div id="nerdiest" class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img src="img/ruby-1.png" alt="\">
       </div>
@@ -134,7 +215,7 @@
         <h5>Live</h5>
         <p>Ruby on Rails web app</p>
       </div>
-    </div></div> <!-- end Soccer Tweets Analysis --> -->
+    </div></div> --> <!-- end Soccer Tweets Analysis -->
   </div>
 
   <!-- Video Ad Production Bravo Apparel -->
@@ -149,8 +230,6 @@
 </div>
 </div>
 <!-- end Cards for each portfolio item -->
-<!-- Card layovers -->
-<!-- end Card layovers -->
 
 <div class="divider"></div>
 
