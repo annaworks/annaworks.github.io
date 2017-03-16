@@ -42,6 +42,8 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   border:1px solid blue;
 }
 
+.nav-wrapper img { width: 29px; height:29px; margin-left: 20px;}
+
 /* icon prefix focus color */
 .input-field > input[type=text]:focus, input[type=email]:focus, textarea:focus {
   border-bottom: 1px solid #008a7d;
@@ -97,8 +99,8 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   right: 0px;
   height: 100%;
   width: 100%;
-  background-color: #212121;
-  opacity: 0.90;
+  background: url('../img/pattern.png') center center no-repeat;
+  opacity: 1;
   overflow: auto;
 }
 
@@ -125,8 +127,8 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
 
 #header {
   text-align: center;
-  height: 323px;
-  padding-top: 60px;
+  height: 400px;
+  padding-top: 100px;
   padding-bottom: 1.5rem;
 }
 
@@ -137,14 +139,13 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
 
 #footer p {padding-top: 1rem;}
 
-#logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px;}
+#logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px; background: url('img/logo_white.png') no-repeat left center;}
 #workTitle > h3, #logo-navbar {font-family: "Poiret One", cursive; color: #fff; letter-spacing: 2px;}
 #workTitle > h6 {color: #008a7d;letter-spacing: 3px;}
-#silhouette {
-  width: 85px;
-  height: 85px;
+#logo {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background: #ffffff;
   margin: 0 auto;
 }
 

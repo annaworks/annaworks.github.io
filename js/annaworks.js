@@ -1,6 +1,6 @@
 $(window).on('scroll', function() {
   var scrollTop = $(window).scrollTop();
-  if (scrollTop > 130){
+  if (scrollTop > 190){
     $('#header').addClass('scale-out').addClass('scale-transition');
     $('#nav-fix').css('display', 'block');
     $('#nav-fix').addClass('fixed');
@@ -18,7 +18,7 @@ $(window).on('scroll', function() {
 // AFTER PAGE LOAD
 $(function() {
   // Header Fade in Animation
-  $('#silhouette').hide().delay(400).fadeIn(1000);
+  $('#logo').hide().delay(400).fadeIn(1000);
   $('#workTitle').hide().delay(800).fadeIn(800);
 
   // Card Layover Show on click
