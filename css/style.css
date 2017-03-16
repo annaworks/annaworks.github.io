@@ -25,6 +25,15 @@ img {
 
 h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
 
+.divider {opacity: 0.35;}
+
+.fixed {
+  position: fixed;
+  top:0px;
+  width: 100%;
+  z-index: 2;
+}
+
 .nav {
   background: #008a7d;
 }
@@ -53,10 +62,12 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
 
 #header {
   text-align: center;
-  padding-top: 30px;
+  height: 323px;
+  padding-top: 60px;
   font-weight: 300;
   color: #616161;
   padding-bottom: 1.5rem;
+  transform-style: preserve-3d;
 }
 
 #logo-navbar {font-size: 1.75em; padding-left: 10px; position: relative; bottom: 5px;}
@@ -68,6 +79,40 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
   border-radius: 50%;
   background: #ffffff;
   margin: 0 auto;
+}
+
+/* JQUERY INTERACTIONS */
+.header-hide > div {
+  transition: all 0.5s linear;
+  transform-origin: 50% 0%;
+}
+
+.header-hide {
+  transition: all 1s linear;
+  transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.header-show {
+  transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}
+
+/* WORK CARDS OVERLAY */
+.card-layover {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: auto;
+  background-color: #8ae0d0;
+  z-index: 3;
+}
+
+.card-overlay {
+
 }
 
 /* SIZE ADJUSTMENTS ACCORDING TO SCREEN SIZE */
@@ -82,6 +127,4 @@ h5 { font-size: 1.25em; font-weight: 400; color: #424242;}
 
 
 /* OPACITY CHANGES FOR JQUERY */
-.opac-60 {
-  opacity: 60%;
-}
+.opac-95 { opacity: 0.95; }
