@@ -141,6 +141,17 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
   opacity: 1;
 }
 
+a.work-item-link:after {
+  padding-left: 10px;
+  line-height: 30px;
+  content: attr(href);
+  width: 100px !important;
+  text-overflow: ellipsis;
+}
+
+a.work-item-link:hover, a.work-item-link:active {
+  opacity: 0.8;
+}
 
 #works {
   margin-top: 1rem;
