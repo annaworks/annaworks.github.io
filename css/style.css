@@ -77,7 +77,13 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
 
 .card-content > p {font-size: 0.9em; font-weight: 300;}
 
-.modal {z-index:5; margin-top: 15%;}
+.modal {
+  z-index:5;
+  margin-top: 0;
+  min-height: 90% !important;
+  width: 70% !important;
+  bottom: 1%;
+}
 
 .modal-image {
   z-index:6;
@@ -202,14 +208,13 @@ h5 { font-size: 1.35em; font-weight: 400; color: #424242;}
 
 /* SIZE ADJUSTMENTS ACCORDING TO SCREEN SIZE */
 @media only screen and (max-width: 600px) {
-  h2 {font-size: 2em;letter-spacing: 10px;};
+  h2 {font-size: 2em;letter-spacing: 10px;}
+  .modal {width: 98% !important;}
 }
 
 @media only screen and (max-width: 992px) {
-  h2 {font-size: 1.35em; letter-spacing: 3px;};
-  .modal {margin-top: 30%;};
+  h2 {font-size: 1.35em; letter-spacing: 3px;}
 }
-
 
 
 /* OPACITY CHANGES FOR JQUERY */
